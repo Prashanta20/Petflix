@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="logo">
+      <img
+        onclick="window.location.href = 'index.html';"
+        src="Images/Petflix.jpg"
+        alt="logo"
+        class="imgLogo"
+      />
+    </div>
+
+    <div class="SignIn">
+      <h1>Sign In</h1>
+      <form>
+        <input
+          type="text"
+          id="email2"
+          name="email"
+          placeholder="Email address"
+        />
+        <input
+          type="text"
+          id="password"
+          name="password"
+          placeholder="Password"
+        />
+      </form>
+      <button onclick="signIn()" class="buttonTopRight" id="btnSignIn">
+        Sing In
+      </button>
+      <p id="create">Don't have an account? Create One!</p>
+      <button
+        class="buttonTopRight"
+        id="btnCreate"
+        type="button"
+        onclick="window.location.href = 'create.html';"
+      >
+        Create Account
+      </button>
+      <p id="sign">Incorrect password or email</p>
+    </div>
+
+    <script>
+      document.getElementById("email2").value = sessionStorage.getItem("email");
+    </script>
+  </body>
+</html>

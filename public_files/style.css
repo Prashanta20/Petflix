@@ -1,0 +1,194 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(Images/movies2.png);
+    height: 100vh;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+h1{
+    color: white;
+    font-family: Tahoma, Verdana, sans-serif;
+
+}
+
+h2{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Tahoma, Verdana, sans-serif;
+    
+}
+
+#isCreate{
+    position: relative;
+    top: 40px;
+    opacity: 0;
+}
+
+#sign{
+    position: relative;
+    top: 40px;
+    opacity: 0;
+}
+
+#btnCreate{
+    width: 355px;
+    height: 50px;
+    font-size: large;
+    position: relative;
+    top: 40px;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+#create{
+    font-size: medium;
+    position: relative;
+    top: 40px;
+}
+
+
+#buttonMSG{
+    font-size: smaller;
+    
+
+}
+
+#GetStarted{
+    height: 45px;
+    width: 130px;
+}
+
+
+#email{
+    border-color: green;
+    border-width: 2px;
+    opacity: 1;
+    width: 350px;
+    height: 35px;
+    background: transparent;
+    color: white;
+}
+
+#password{
+    border-color: rgb(253, 253, 253);
+    border-width: 2px;
+    opacity: 1;
+    width: 350px;
+    height: 35px;
+    background: transparent;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+#btnSignIn{
+    width: 355px;
+    height: 50px;
+    font-size: large;
+    position: relative;
+    top: 40px;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+#email2{
+    border-color: rgb(253, 253, 253);
+    border-width: 2px;
+    opacity: 1;
+    width: 350px;
+    height: 35px;
+    background: transparent;
+    color: white;
+}
+
+#home{
+    cursor: pointer;
+    color: red;
+    width: 0px;
+    height: 0px;
+    opacity: 1;
+}
+.imgLogo {
+    width: 175px;
+    cursor: pointer;
+    
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 2%;
+    
+}
+
+.center{
+    color: white;
+    
+    
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    padding-top: 40px;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin:auto;
+}
+
+.buttonTR {
+    margin-top: -3%;
+    margin-left: 85%;
+    width: 100px;
+}
+
+.buttonTopRight{
+    background-color: red;
+    border-radius: 6px;
+    color: white;
+    font-size: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    transition-duration: 0.3s;
+
+}
+
+.buttonTopRight:hover {
+    background-color: darkred;
+}
+
+.SignIn {
+    background: rgba(0, 0, 0, 0.684);
+    
+    
+    width: 350px;
+    height: 450px;
+    padding: 40px;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin:auto;
+}
+

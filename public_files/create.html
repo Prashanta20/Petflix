@@ -1,0 +1,43 @@
+!<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="logo">
+      <img
+        onclick="window.location.href = 'index.html';"
+        src="Images/Petflix.jpg"
+        alt="logo"
+        class="imgLogo"
+      />
+    </div>
+
+    <div class="SignIn">
+      <h1>Create Account</h1>
+      <form>
+        <input
+          type="text"
+          id="email2"
+          name="email"
+          placeholder="Email address"
+        />
+        <input
+          type="text"
+          id="password"
+          name="password"
+          placeholder="Password"
+        />
+      </form>
+      <button onclick="sendData()" class="buttonTopRight" id="btnSignIn">
+        Create
+      </button>
+      <p id="isCreate">Account was created succesfully!</p>
+    </div>
+  </body>
+</html>

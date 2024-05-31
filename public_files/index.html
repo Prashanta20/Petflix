@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="logo">
+      <img
+        onclick="window.location.href = 'index.html';"
+        src="Images/Petflix.jpg"
+        alt="logo"
+        class="imgLogo"
+      />
+    </div>
+      
+      <div class="center"> 
+        <h2> Unlimited movies, TV shows and more </h2>
+        <p> Starts at $5.99. Cancel anytime <br> </p1>
+        <p id ="buttonMSG"> <br> Ready to watch? Enter your email to create or restart your memebership </p>
+        <form> 
+          <input type="text" id="email" name="email" placeholder="Email address"> 
+          <button class = "buttonTopRight" id="GetStarted" type="button" onclick="toSinginIn()"> Get Started  > </button>
+        </form>
+        
+      </div>
+  
+      <div class = "buttonTR">   
+          <button class = "buttonTopRight" type="button" onclick="window.location.href = 'signin.html';"> Sign In </button>
+        
+      </div>
+    </div>
+  </body>
+</html>
